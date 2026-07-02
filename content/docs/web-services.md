@@ -18,10 +18,17 @@ following behaviors in mind when using them.
 A free instance automatically spins down after 15 minutes without an inbound
 request. The instance stops consuming resources while it is spun down.
 
+**Idle snapshot**
+After a free instance has been idle for one minute, Render takes an in-memory
+snapshot of the running process. If the service receives a request before the
+15-minute spin-down threshold, Render can restore from this snapshot instead of
+performing a full cold start, reducing resume latency. The snapshot is discarded
+once the instance fully spins down.
+
 **Cold starts**
-When a new request arrives for a spun-down service, Render starts the instance
-before serving the response. This cold start typically adds 30–60 seconds of
-latency to the first request. Subsequent requests are served normally until the
+When a new request arrives for a fully spun-down service, Render starts the instance
+from scratch before serving the response. This cold start typically adds 30–60 seconds
+of latency to the first request. Subsequent requests are served normally until the
 service spins down again.
 
 **Resource limits**
