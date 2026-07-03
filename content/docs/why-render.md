@@ -1,46 +1,48 @@
-# Por qué Render
+# Warum Render
 
-Render es una plataforma cloud unificada que te permite construir, desplegar y escalar
-tus aplicaciones sin tener que lidiar con la infraestructura.
+Render ist eine einheitliche Cloud-Plattform, mit der du deine Apps entwickeln,
+deployen und skalieren kannst – ohne dich um die Infrastruktur kümmern zu müssen.
 
-## Despliega en segundos, no en horas
+## In Sekunden deployen, nicht in Stunden
 
-Haz push a tu rama de Git conectada y Render construye y despliega tu servicio
-automáticamente. No hay configuración YAML compleja, ni clústeres que aprovisionar,
-ni AMIs que mantener. Obtienes una URL HTTPS en cuanto la compilación termina.
+Push in deinen verbundenen Git-Branch und Render baut und deployt deinen Service
+automatisch. Kein kompliziertes YAML, keine Cluster-Provisionierung, keine AMIs zu
+verwalten. Du erhältst eine HTTPS-URL, sobald der Build erfolgreich abgeschlossen ist.
 
-## Todo lo que necesitas, integrado
+## Alles, was du brauchst – direkt integriert
 
-| Capacidad | Qué ofrece Render |
+| Funktion | Was Render bietet |
 |---|---|
-| Servicios web | Contenedores con autoescalado y despliegues sin tiempo de inactividad |
-| Sitios estáticos | CDN global con invalidación automática de caché |
-| Workers en segundo plano | Procesos de larga duración sin tráfico entrante requerido |
-| Cron jobs | Tareas programadas con sintaxis de expresión cron estándar |
-| Bases de datos | PostgreSQL gestionado con copias de seguridad diarias y restauración por punto en el tiempo |
-| Red privada | Los servicios se comunican entre sí por una red privada de forma predeterminada |
+| Webservices | Autoskalierte Container mit Zero-Downtime-Deploys |
+| Statische Seiten | Globales CDN mit automatischer Cache-Invalidierung |
+| Background Worker | Lang laufende Prozesse ohne eingehenden Traffic |
+| Cron Jobs | Geplante Aufgaben mit vertrauter Cron-Ausdrucks-Syntax |
+| Datenbanken | Verwaltetes PostgreSQL mit täglichen Backups und Point-in-Time-Wiederherstellung |
+| Privates Netzwerk | Services kommunizieren standardmäßig über ein privates Netzwerk miteinander |
 
-## Precios predecibles
+## Planbare Kosten
 
-Render cobra por lo que usas. Cada tipo de servicio tiene un precio claro por instancia,
-y puedes configurar alertas de gasto para no llevarte sorpresas a fin de mes.
-Las instancias del nivel gratuito están disponibles para prototipos; las cargas de trabajo
-en producción pueden escalar vertical u horizontalmente desde el panel de control.
+Render berechnet dir nur, was du tatsächlich nutzt. Jeder Service-Typ hat einen
+klaren Preis pro Instanz, und du kannst Ausgaben-Benachrichtigungen einrichten, damit
+du am Monatsende nicht überrascht wirst. Instanzen im Free-Tier stehen für Prototypen
+zur Verfügung; produktive Workloads können über das Dashboard vertikal oder horizontal
+skaliert werden.
 
-## Diseñado para equipos
+## Für Teams gemacht
 
-- **Entornos de previsualización** — cada pull request obtiene su propio despliegue
-  aislado para que los revisores puedan probar los cambios antes de fusionarlos.
-- **Grupos de entorno** — comparte secretos entre servicios sin duplicar valores.
-- **Acceso basado en roles** — invita a compañeros con roles de propietario, editor
-  o solo lectura.
-- **Registros de auditoría** — consulta exactamente quién cambió qué y cuándo
-  (disponible en planes de pago).
+- **Vorschau-Umgebungen** — Jeder Pull Request erhält eine eigene isolierte
+  Deployment-Umgebung, damit Reviewer Änderungen vor dem Merge testen können.
+- **Umgebungsgruppen** — Teile Secrets zwischen Services, ohne Werte doppelt pflegen
+  zu müssen.
+- **Rollenbasierter Zugriff** — Lade Teammitglieder mit den Rollen Eigentümer,
+  Bearbeiter oder Nur-Lesen ein.
+- **Audit-Logs** — Sieh genau, wer wann was geändert hat (verfügbar in
+  kostenpflichtigen Plänen).
 
-## Fiable por defecto
+## Zuverlässig als Standard
 
-Render funciona sobre infraestructura de AWS en múltiples regiones. Los servicios
-se reinician automáticamente en caso de fallo, los controles de salud son configurables
-y los rollbacks de despliegue se hacen con un solo clic. Los detalles del SLA dependen
-de tu plan; consulta la [página de precios de Render](https://render.com/pricing) para
-conocer los compromisos aplicables a tu cuenta.
+Render läuft auf AWS-Infrastruktur in mehreren Regionen. Services werden bei einem
+Fehler automatisch neu gestartet, Health Checks sind konfigurierbar und Deployment-
+Rollbacks sind mit einem Klick erledigt. Die SLA-Details hängen von deinem Plan ab;
+die geltenden Vereinbarungen findest du auf der
+[Render-Preisseite](https://render.com/pricing).
