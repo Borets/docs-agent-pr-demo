@@ -1,44 +1,46 @@
-# Why Render
+# Por qué Render
 
-Render is a unified cloud platform that lets you build, deploy, and scale your apps
-without wrestling with infrastructure.
+Render es una plataforma cloud unificada que te permite construir, desplegar y escalar
+tus aplicaciones sin tener que lidiar con la infraestructura.
 
-## Deploy in seconds, not hours
+## Despliega en segundos, no en horas
 
-Push to your connected Git branch and Render automatically builds and deploys your
-service. There's no YAML ceremony, no cluster to provision, and no AMIs to maintain.
-You get a live HTTPS URL as soon as the build succeeds.
+Haz push a tu rama de Git conectada y Render construye y despliega tu servicio
+automáticamente. No hay configuración YAML compleja, ni clústeres que aprovisionar,
+ni AMIs que mantener. Obtienes una URL HTTPS en cuanto la compilación termina.
 
-## Everything you need, built in
+## Todo lo que necesitas, integrado
 
-| Capability | What Render provides |
+| Capacidad | Qué ofrece Render |
 |---|---|
-| Web services | Autoscaled containers with zero-downtime deploys |
-| Static sites | Global CDN with automatic cache invalidation |
-| Background workers | Long-running processes with no inbound traffic required |
-| Cron jobs | Scheduled tasks with a familiar cron expression syntax |
-| Databases | Managed PostgreSQL with daily backups and point-in-time restore |
-| Private networking | Services talk to each other over a private network by default |
+| Servicios web | Contenedores con autoescalado y despliegues sin tiempo de inactividad |
+| Sitios estáticos | CDN global con invalidación automática de caché |
+| Workers en segundo plano | Procesos de larga duración sin tráfico entrante requerido |
+| Cron jobs | Tareas programadas con sintaxis de expresión cron estándar |
+| Bases de datos | PostgreSQL gestionado con copias de seguridad diarias y restauración por punto en el tiempo |
+| Red privada | Los servicios se comunican entre sí por una red privada de forma predeterminada |
 
-## Predictable pricing
+## Precios predecibles
 
-Render charges for what you use. Every service type has a clear per-instance price,
-and you can set spend alerts so you're never surprised at the end of the month.
-Free-tier instances are available for prototyping; production workloads can scale
-vertically or horizontally from the dashboard.
+Render cobra por lo que usas. Cada tipo de servicio tiene un precio claro por instancia,
+y puedes configurar alertas de gasto para no llevarte sorpresas a fin de mes.
+Las instancias del nivel gratuito están disponibles para prototipos; las cargas de trabajo
+en producción pueden escalar vertical u horizontalmente desde el panel de control.
 
-## Built for teams
+## Diseñado para equipos
 
-- **Preview environments** — every pull request gets its own isolated deployment so
-  reviewers can test changes before they merge.
-- **Environment groups** — share secrets across services without duplicating values.
-- **Role-based access** — invite teammates with owner, editor, or read-only roles.
-- **Audit logs** — see exactly who changed what and when (available on paid plans).
+- **Entornos de previsualización** — cada pull request obtiene su propio despliegue
+  aislado para que los revisores puedan probar los cambios antes de fusionarlos.
+- **Grupos de entorno** — comparte secretos entre servicios sin duplicar valores.
+- **Acceso basado en roles** — invita a compañeros con roles de propietario, editor
+  o solo lectura.
+- **Registros de auditoría** — consulta exactamente quién cambió qué y cuándo
+  (disponible en planes de pago).
 
-## Reliable by default
+## Fiable por defecto
 
-Render runs on AWS infrastructure across multiple regions. Services are restarted
-automatically on failure, health checks are configurable, and deploy rollbacks are
-a single click. SLA details depend on your plan; check the
-[Render pricing page](https://render.com/pricing) for the commitments that apply to
-your account.
+Render funciona sobre infraestructura de AWS en múltiples regiones. Los servicios
+se reinician automáticamente en caso de fallo, los controles de salud son configurables
+y los rollbacks de despliegue se hacen con un solo clic. Los detalles del SLA dependen
+de tu plan; consulta la [página de precios de Render](https://render.com/pricing) para
+conocer los compromisos aplicables a tu cuenta.
